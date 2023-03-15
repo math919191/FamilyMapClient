@@ -123,9 +123,9 @@
         <TableRow>
 
             <TextView
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
-                android:gravity="center"
+                android:gravity="right|center"
                 android:text="@string/gender" />
 
             <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
@@ -155,12 +155,14 @@
                 android:id="@+id/signInButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:text="@string/signInButton" />
 
             <Button
                 android:id="@+id/registerButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:text="@string/registerButton" />
         </LinearLayout>
     </TableLayout>
